@@ -1,0 +1,229 @@
+/* Global Styles */
+body {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+/* Header Styles */
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+header p {
+    margin: 0.5rem 0 1rem;
+    font-size: 1.2rem;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+header nav ul li a:hover {
+    background: #555;
+}
+
+/* Section Styles */
+section {
+    padding: 2rem 0;
+}
+
+section h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    position: relative;
+}
+
+section h2::after {
+    content: '';
+    width: 50px;
+    height: 4px;
+    background: #333;
+    display: block;
+    margin: 10px auto 0;
+}
+
+/* Home Section */
+#home {
+    background: url('your-background-image.jpg') no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 5rem 0;
+}
+
+#home p {
+    font-size: 1.2rem;
+    max-width: 600px;
+    margin: 1rem auto;
+}
+
+.links .button {
+    display: inline-block;
+    background: #333;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    margin: 0.5rem;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.links .button:hover {
+    background: #555;
+}
+
+/* About Section */
+#about .content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+#about h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+#about p {
+    margin-bottom: 1rem;
+}
+
+#about .experience h4 {
+    font-size: 1.2rem;
+    margin: 1rem 0 0.5rem;
+}
+
+/* Projects Section */
+#projects .projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#projects .project {
+    background: #fff;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1rem;
+    width: 48%;
+}
+
+#projects .project h3 {
+    margin-top: 0;
+    font-size: 1.3rem;
+}
+
+#projects .project p {
+    font-size: 1rem;
+}
+
+#projects .project a {
+    color: #333;
+    text-decoration: none;
+    font-weight: 600;
+    display: inline-block;
+    margin-top: 0.5rem;
+}
+
+/* Leadership Section */
+#leadership .leadership {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+#leadership h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+#leadership p {
+    margin-bottom: 1rem;
+}
+
+/* Contact Section */
+#contact form {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+#contact form label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+#contact form input,
+#contact form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#contact form button {
+    padding: 10px 20px;
+    background: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+#contact form button:hover {
+    background: #555;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background: #333;
+    color: #fff;
+    margin-top: 2rem;
+}
+
+footer p {
+    margin: 0;
+}
